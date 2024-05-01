@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exploring Three JS</title>
+    <style>
+      *
+      {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body,
+      html
+      {
+        overflow-x: hidden;
+     
+      }
+      .webgl
+      {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+      }
+      .title
+      {
+        color: white;
+        z-index: 2;
+        position: absolute;
+        font-style: 3rem;
+        left: 50%;
+        top: 25%;
+        transform: translate(-50%,-25%);
+      }
+    </style>
+  </head>
+  <body>
+    
+
+    <h1 class="title">Give It A Spin</h1>
+    <canvas class="webgl"></canvas>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
